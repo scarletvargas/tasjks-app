@@ -6,6 +6,11 @@ Task App is an application for managing your daily tasks.
 
 - **Task Management:** Easily create, mark as completed, and delete tasks.
 
+### Screenshot
+
+![](./screenshot.png)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
