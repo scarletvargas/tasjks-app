@@ -8,7 +8,7 @@ Task App is an application for managing your daily tasks.
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./screenshot.PNG)
 
 
 ## Available Scripts
