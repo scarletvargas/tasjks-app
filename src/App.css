@@ -1,38 +1,61 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #ffffff;
+  background-color: #25283d;
+  font-family: Lato, sans-serif;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 32px;
+  font-family: Roboto, sans-serif;
+}
+
+h2 {
+  color: #202020;
+  font-size: 22px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+small {
+  color: #b174aa;
+  font-size: 18px;
+}
+
+.task-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title */
+
+.container-title {
+  width: 100%;
+  margin: 20px;
+  display: inline;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Lista de Tareas */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-list-tasks {
+  width: 600px;
+  min-height: 500px;
+  background-color: #eed9ce;
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
 }
